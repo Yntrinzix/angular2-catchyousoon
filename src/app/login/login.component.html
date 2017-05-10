@@ -1,0 +1,92 @@
+  <div class="container">
+    	<div class="myspacer"></div>
+   	  <div class="login-container">
+      	<div class = "logocontainer">
+          <img src="../../assets/images/logo.png" class="img-responsive"><br><br>
+          <p>Your e-business card hub</p>
+        </div>
+        <div class = "loginform">
+        
+        	<div class="card card-container">
+                <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+                <div class="myspacer"></div>
+                <form class="form-signin">
+                      <span id="reauth-email" class="reauth-email"></span>
+                      <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus><br>
+                      <input type="password" id="inputPassword" class="form-control" placeholder="Password" required><br>
+                      
+                      
+                      <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" >Sign in</button>
+                </form><br><!-- /form -->
+                <p>
+                	<span style="font-size:11px">Not yet Registered?</span>
+                    <button type="button" class="btn btn-signup" data-toggle="modal" data-target="#signupModal">Sign-up</button>
+                </p>
+          </div><!-- /card-container -->
+        
+        </div>
+      </div>
+    </div>
+    
+  
+  
+    
+  <!-- Modal -->
+  <div class="modal fade" id="signupModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Register</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal"> 
+             <div class="form-group">
+                <label class="col-sm-2 control-label">Firstname</label>
+                <div class="col-sm-10">
+                  <input type="fname" class="form-control" id="fname" placeholder="Firstname">
+                </div>
+              </div>
+               <div class="form-group">
+                <label class="col-sm-2 control-label">Lastname</label>
+                <div class="col-sm-10">
+                  <input type="lname" class="form-control" id="lname" placeholder="Lastname">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Re-type Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="retypePassword" placeholder="Re-type Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  
+                </div>
+              </div>
+            </form>
+        </div>
+
+        <div class="modal-footer">
+        	<button type="submit" class="btn btn-success">Sign Up</button>
+            <button type="submit" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+          	
+        </div>
+      </div>
+      
+    </div>
+  </div>

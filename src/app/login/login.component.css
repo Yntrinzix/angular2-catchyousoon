@@ -1,0 +1,60 @@
+.login-container{
+	min-height: 70%;  /* Fallback for browsers do NOT support vh unit */
+ 	min-height: 70vh; /* These two lines are counted as one :-)       */
+
+  	display: flex;
+  	align-items: center;
+	
+}
+
+.myspacer{
+	min-height: 15%;  /* Fallback for browsers do NOT support vh unit */
+ 	min-height: 15vh; /* These two lines are counted as one :-)       */
+}
+
+.loginform{
+	min-width: 50%;
+	min-width: 50vh;
+	min-height: 50%;
+	min-height: 50vh;
+	background-color:#FFF;
+	padding-right: 50px;
+	padding-left: 50px;
+	position:relative;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+.logocontainer{
+	min-width: 50%;
+	min-width: 50vh;
+    padding-right: 100px;
+	padding-left: 100px;
+	position:relative;
+	display: inline-block;
+    font-size:14px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+
+.btn-signup{
+	background-color: rgba(255,255,255,0);
+	color: #00b4ff;
+	outline: none;
+}
+
+.btn-signup:active
+{
+	background-color: rgba(255,255,255,0);
+	color:#3399FF;
+	outline: none;
+	
+}
+
+.modal-content{
+	color:#666666;
+	
+}
